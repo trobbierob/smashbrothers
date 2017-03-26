@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Smash Brothers</string>
+
+
+    <string-array name="character_array1">
+        <item>Bowser</item>
+        <item>Mario</item>
+        <item>Marth</item>
+        <item>Ness</item>
+        <item>Wario</item>
+        <item>Wolf</item>
+        <item>Yoshi</item>
+        <item>Zelda</item>
+    </string-array>
+
+    <string-array name="character_array2">
+        <item>Bowser</item>
+        <item>Mario</item>
+        <item>Marth</item>
+        <item>Ness</item>
+        <item>Wario</item>
+        <item>Wolf</item>
+        <item>Yoshi</item>
+        <item>Zelda</item>
+    </string-array>
+
+</resources>

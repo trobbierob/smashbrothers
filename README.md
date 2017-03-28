@@ -11,12 +11,13 @@ Smash Brothers is a simple score counter app, based on the video game series, Sm
 
 ## Screenshots
 
-TODO: Insert screenshots
+![Score counter](https://github.com/trobbierob/smashbrothers/blob/master/screenshots/screenshot.png)
 
 ## Specifications
 
+* The chosen game has either multiple amounts of points that can be scored, as in american football, or multiple important metrics to track, such as fouls, outs, and innings in baseball.
+
 * App is divided into two columns
-  * At least one photo representing the business
   * Each column contains a large TextView to keep track of the current score for that team
   * Each column contains multiple buttons
   
@@ -24,13 +25,21 @@ TODO: Insert screenshots
   * The reset button resets the scores on both of the score TextViews
 
 ## Sample Code
+~~~
+ spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getBaseContext(), "Player 2 is " +
+                        parent.getItemAtPosition(position), Toast.LENGTH_SHORT).show();
+            }
 
-TODO: Insert code samples
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
-## Features
-
-TODO: Describe the features
+            }
+        }); // second player character select
+~~~
 
 ## Special Thanks
 
-[Smash Brothers](http://www.smashbros.com/us/)
+HAL Laboratory, Inc. [_Super Smash Bros. Melee_](https://www.ssbwiki.com/Super_Smash_Bros._Melee). Nintendo, 2001. GameCube.
